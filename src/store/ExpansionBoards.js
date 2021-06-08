@@ -35,6 +35,17 @@ export default {
 		spiCsPorts: [],
 		maxRtdBoards: 2
 	},
+	'EXP1XD': {
+		isToolBoard: true,
+		numDrives: 1,
+		heaterPorts: [],
+		fanPorts: ['out0', 'out1'],
+		gpioPorts: ['io0.out', 'io0.in','io1.in', 'io2.out', 'io2.in'],
+		analogPorts: ['temp0'],
+		pwmPorts: ['io0.out','io1.out'],
+		spiCsPorts: [],
+		maxRtdBoards: 2
+	},
 	'EXP3HC': {
 		isToolBoard: false,
 		numDrives: 3,

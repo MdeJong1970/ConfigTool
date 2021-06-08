@@ -157,7 +157,7 @@ export default {
 			supports12864: false,
 			firmwareFile: 'Duet3Firmware_MB6HC.bin',
 			iapFile: 'Duet3_SDiap_MB6HC.bin',
-			expansionBoards: ['EXP3HC', 'TOOL1LC'],
+			expansionBoards: ['EXP1XD','EXP3HC', 'TOOL1LC'],
 			maxExpansionBoards: 6
 		},
 		{
